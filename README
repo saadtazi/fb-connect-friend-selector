@@ -1,4 +1,3 @@
-
 Usage:
 1- include jquery autocomplete plugin (this one: http://bassistance.de/jquery-plugins/jquery-plugin-autocomplete/)
 2- include that file
@@ -28,6 +27,9 @@ Options:
 
 If the input field has a cssclass "fbs_single", then you can only select one friend (the selector field is hidden).
 If it has not a css class "fbs_single", it will allow you to select as many friends as you want.
+
+Symfony Widget:
+I also created a Symfony widjet that uses this jquery plugin. Just copy the widget folder into your lib folder. a Symfony plugin is on its way... 
 
 Limitations/Disclaimer:
 Friends that have been already selected can be selected as many time (is not in "fbs_single" mode).
